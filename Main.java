@@ -20,16 +20,6 @@ public class Main {
         arrayList.add("C://Games//savesgames//save2.dat");
         arrayList.add("C://Games//savesgames//save3.dat");
 
-        /*File zip = new File("C://Games//savesgames//zip.zip");
-        try {
-            if (zip.createNewFile()) {
-                System.out.println("Zip создан");
-            }
-        } catch (IOException ex) {
-            System.out.println(ex.getMessage() + '\n');
-        }*/
-
-
         zipFiles("C://Games//savesgames//zip.zip", arrayList);
 
         List<File> saveDat = Arrays.asList(
